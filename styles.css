@@ -1,0 +1,14 @@
+/*Tag targetting is CSS*/
+img {
+    width: 200px;
+}
+
+/*Class targetting is CSS*/
+.logo {
+    height: 200px;
+}
+
+/*Id targetting is CSS*/
+#firstimage {
+    border: red solid 5px;
+}
