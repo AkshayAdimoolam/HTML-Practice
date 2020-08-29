@@ -1,112 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tables</title>
-    <link rel="stylesheet" href="table-styles.css">
-</head>
-<body>
-    <h1>Tables</h1>
-    <!-- Block level -->
-
-    <h2>Simple table with header</h2>
-    <table border="1">
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-        </tr>
-        <tr>
-            <td>John</td>
-            <td>Smith</td>
-        </tr>
-        <tr>
-            <td>Jane</td>
-            <td>Smith</td>
-        </tr>
-    </table>
-
-    <h2>Simple table with thead, tfooter and tbody</h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Header Content 1</th>
-                <th>Header Content 2</th>
-                <th>Header Content 3</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Body Content 1</td>
-                <td>Body Content 2</td>
-                <td>Body Content 3</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th>Footer Content 1</th>
-                <th>Footer Content 2</th>
-                <th>Footer Content 3</th>
-            </tr>
-        </tfoot>
-    </table>
-
-    <h2>Simple table with colgroup</h2>
-    <table>
-        <colgroup span="4"></colgroup>
-        <thead>
-            <tr>
-                <th>Header Content 1</th>
-                <th>Header Content 2</th>
-                <th>Header Content 3</th>
-                <th>Header Content 4</th>
-            </tr>
-        </thead>
-        <tr>
-            <td>Content 1</td>
-            <td>Content 2</td>
-            <td>Content 3</td>
-            <td>Content 4</td>
-        </tr>
-        <tr>
-            <td>Content 1</td>
-            <td>Content 2</td>
-            <td>Content 3</td>
-            <td>Content 4</td>
-        </tr>
-    </table>
-
-    <h2>Simple table with colgroup and col</h2>
-    <table>
-        <colgroup>
-            <col span="2" style="background-color:red">
-            <col style="background-color: black;">
-        </colgroup>
-        <tr>
-            <th>Lime</th>
-            <th>Lemon</th>
-            <th>Orange</th>
-        </tr>
-        <tr>
-            <th>Red</th>
-            <th>Yellow</th>
-            <th>Orange</th>
-        </tr>
-        <tr>
-            <th>Red</th>
-            <th>Yellow</th>
-            <th>Orange</th>
-        </tr>
-    </table>
-
-    <h2>Simple table with caption</h2>
-    <table>
-        <caption>
-            This is a caption.
-        </caption>
-        <tr>
-            <td>This is a caption</td>
-        </tr>
-    </table>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tables</title>
+        <link rel="stylesheet" href="table-styles.css">
+    </head>
+    <div class="container">
+        <body>
+            <h1>Tables</h1>
+            <!-- Block level -->
+        
+            <h2>Simple <span class="spanclass">table with header</span></h2>
+            <table border="1">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Smith</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>Smith</td>
+                </tr>
+            </table>
+        
+            <h2>Simple table with thead, tfooter and tbody</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Header Content 1</th>
+                        <th>Header Content 2</th>
+                        <th>Header Content 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Body Content 1</td>
+                        <td>Body Content 2</td>
+                        <td>Body Content 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Footer Content 1</th>
+                        <th>Footer Content 2</th>
+                        <th>Footer Content 3</th>
+                    </tr>
+                </tfoot>
+            </table>
+        
+            <h2>Simple table with colgroup</h2>
+            <table>
+                <colgroup span="4"></colgroup>
+                <thead>
+                    <tr>
+                        <th>Header Content 1</th>
+                        <th>Header Content 2</th>
+                        <th>Header Content 3</th>
+                        <th>Header Content 4</th>
+                    </tr>
+                </thead>
+                <tr>
+                    <td>Content 1</td>
+                    <td>Content 2</td>
+                    <td>Content 3</td>
+                    <td>Content 4</td>
+                </tr>
+                <tr>
+                    <td>Content 1</td>
+                    <td>Content 2</td>
+                    <td>Content 3</td>
+                    <td>Content 4</td>
+                </tr>
+            </table>
+        
+            <h2>Simple table with colgroup and col</h2>
+            <table>
+                <colgroup>
+                    <col span="2" style="background-color:red">
+                    <col style="background-color: black;">
+                </colgroup>
+                <tr>
+                    <th>Lime</th>
+                    <th>Lemon</th>
+                    <th>Orange</th>
+                </tr>
+                <tr>
+                    <th>Red</th>
+                    <th>Yellow</th>
+                    <th>Orange</th>
+                </tr>
+                <tr>
+                    <th>Red</th>
+                    <th>Yellow</th>
+                    <th>Orange</th>
+                </tr>
+            </table>
+        
+            <h2>Simple table with caption</h2>
+            <table>
+                <caption>
+                    This is a caption.
+                </caption>
+                <tr>
+                    <td>This is a caption</td>
+                </tr>
+            </table>
+        </body>
+    </div>
 </html>

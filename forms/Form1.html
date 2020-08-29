@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <h2>Create a new Account</h2>
+
+    <form action="/forms/Form2.html" target="_blank" method="GET">
+        <label for="first">First Name: </label>
+        <input id="first" type="name" name="firstname" placeholder="John" required><br>
+        <label for="last">Last Name: </label>
+        <input id="last" type="name" name="lastname" placeholder="Smith" required><br> 
+        <label for="DOB">Date of birth: </label>
+        <input id="DOB" type="date" name="dob" required><br>
+        <label for="male">Male</label>
+        <input name="gender" id="male" type="radio" value="male" required>
+        <label for="female">Female</label>
+        <input name="gender" id="female" type="radio" value="female" required>
+        <label for="other">Other</label>
+        <input name="gender" id="other" type="radio" value="other" required><br>
+        <label for="account">Account type: </label>
+        <select name="account-type" id="account">
+            <option name="account-type" value="0" selected disabled>Account Type</option>
+            <option name="account-type" value="Administrator">Administrator</option>
+            <option name="account-type" value="Contributor">Contributor</option>
+            <option name="account-type" value="Visitor">Visitor</option>
+        </select><br>
+        <label for="email">Email: </label>
+        <input id="email" type="email" name="email" placeholder="Your email" required><br>
+        <label for="pass">Password: </label>
+        <input id="pass" type="password" name="pass" placeholder="Enter password" pattern=".{5,10}" title="Password min 5, max 10 characters" required><br><br><br>
+        <a href="/forms/TermsAndConditions.html" target="_blank">Terms and Conditions!</a><br><br><br>
+        <label for="agree">I agree to the terms and conditions </label>
+        <input id="agree" type="checkbox" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

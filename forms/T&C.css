@@ -1,0 +1,52 @@
+h1 {
+    color: rgba(71, 158, 86, 0.932);
+    border: red dotted 5px;
+    background-color: skyblue;
+}
+
+h2 {
+    color: green;
+}
+
+.container-policy {
+    background-color: yellow;
+}
+
+#agreement {
+    color: orange;
+}
+
+[href="/forms/Form1.html"] {
+    color: red;
+}
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+li {
+    line-height: 2.5em;
+}
+
+a {
+    text-decoration: none;
+}
