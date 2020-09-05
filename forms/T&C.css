@@ -1,15 +1,38 @@
+:root {
+    --primary-color: #0a5a66;
+    --dark-color: #12202e;
+    --light-color: #f4f4f4;
+    --danger-color: #d30d20;
+    --success-color: #2aaa50;
+    --shadow: 0 5px 14px rgba(0, 0, 0, 0.7);
+}
+
 h1 {
     color: rgba(71, 158, 86, 0.932);
     border: red dotted 5px;
     background-color: skyblue;
 }
 
+h1:hover {
+    box-shadow: var(--shadow);
+}
+
 h2 {
-    color: green;
+    color: var(--success-color);
 }
 
 .container-policy {
     background-color: yellow;
+    // margin-top: 10px;
+    // margin-right: 15px;
+    // margin-bottom: 20px;
+    // margin-left: 25px;
+
+    margin: 10px 15px 20px 25px;
+    
+    border: 5px solid red;
+
+    padding: 20px;
 }
 
 #agreement {
@@ -49,4 +72,13 @@ li {
 
 a {
     text-decoration: none;
+}
+
+button:hover {
+    box-shadow: var(--shadow);
+    background-color: var(--success-color);
+}
+
+a:hover {
+    color: var(--light-color);
 }

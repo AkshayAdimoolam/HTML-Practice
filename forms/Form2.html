@@ -3,18 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/forms/Form2.css">
     <title>Login</title>
 </head>
 <body>
-    <h1>Welcome to your Account</h1>
-    <h2>Login</h2>
-
-    <form target="http://www.wikipedia.org" method="POST">
-        <label for="email">Email: </label>
-        <input id="email" type="email" name="email" placeholder="Your email" required><br>
-        <label for="pass">Password: </label>
-        <input id="pass" type="password" name="pass" placeholder="Enter password" minlength="5" maxlength="10" required><br>
-        <input type="submit" value="Login">
-    </form>
+    <h1>Welcome to your Account</h1>    
+    <h2>Please Log In to continue</h2>
+    <div class="container-login">
+        <form id="login" target="http://www.wikipedia.org" method="POST">
+            <h2>Login</h2>
+            <div>
+                <label for="email">Email: </label>
+                <input id="email" type="email" name="email" placeholder="Your email" required><br>
+            </div>
+            <div>
+                <label for="pass">Password: </label>
+                <input id="pass" type="password" name="pass" placeholder="Enter password" minlength="5" maxlength="10" required><br>
+            </div>
+            <div class="btn-login">
+                <input class="btn" type="submit" value="Login">
+            </div>
+        </form>
+        <!-- <p>rklgkrdgkdrkgjrdoijioj</p>
+        <p>dsgdfgkdfgk</p> -->
+    </div>
 </body>
 </html>

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+:root {
+    --primary-color: #0a5a66;
+    --dark-color: #12202e;
+    --light-color: #f4f4f4;
+    --danger-color: #d30d20;
+    --success-color: #2aaa50;
+    --shadow: 0 5px 14px rgba(0, 0, 0, 0.7);
+    --disable-color: #c0bdbd;
+}
+
+#f1 {
+    border: 1px solid var(--light-color);
+    width: 300px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    box-shadow: var(--shadow);
+    z-index: 2;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    padding: .5em;
+    z-index: 3;
+    background-color: var(--primary-color);
+    color: var(--dark-color);
+}
+
+h2 {
+    padding: 1em;
+    text-align: center;
+    font-size: 2em;
+}
+
+input[type='submit'] {
+    padding: 10px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    border-radius: 10px;
+    margin: 10px 10px;
+}
+
+.btn:hover {
+    background-color: var(--success-color);
+    box-shadow: var(--shadow);
+}
+
+div {
+    padding: 0.5em;
+    font-weight: 500;
+}
+
+.radio {
+    padding: 5px;
+}
+
+.TC {
+    text-decoration: none;
+    text-align: center;
+}
+
+// input:hover {
+//     background-color: var(--dark-color);
+// }
+
+.TC:hover {
+    color: var(--success-color);
+}
+
+input:focus {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+
+input:enabled {
+    background-color: var(--success-color) !important;
+}
+
+input:disabled {
+    background-color: var(--danger-color) !important;   
+}
+
+input[type='checkbox']:checked + label {
+    box-shadow: var(--shadow);
+    color: var(--success-color);
+}
+
+input[type='radio']:checked {
+    box-shadow: var(--shadow);
+}
+
+option:checked {
+    color: var(--success-color);
+    // background-color: var(--dark-color);
+}
+
+select option:first-child {
+    color: blue;
+}
+
+select option:nth-child(2) {
+    color: red;
+}
+
+select option:last-child {
+    color: green;
+}
